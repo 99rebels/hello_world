@@ -7,6 +7,6 @@ def hello():
 
 if __name__ == '__main__':
     # Get the PORT from the environment (default to 5000 if not set)
-    port = int(os.environ.get('PORT', 5000))
+    port = 5000
     # Bind to 0.0.0.0 for external access
     app.run(host='0.0.0.0', port=port)
